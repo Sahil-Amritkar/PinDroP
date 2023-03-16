@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "242756887293",
+    "project_id": "firstmapsproject-370112",
+    "storage_bucket": "firstmapsproject-370112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242756887293:android:239dd8b763b0d08d361494",
+        "android_client_info": {
+          "package_name": "com.example.pindrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242756887293-2ome9gsl5igebn1skba6pn9vm5st3mr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pindrop",
+            "certificate_hash": "8f67dddf91cee2d3469b690b5cfee952f25bfc4b"
+          }
+        },
+        {
+          "client_id": "242756887293-as9i837vqmh6o6svlr9iqipssftg3cgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSkC8jLoZPPoM25Cz3zu4sMMgOjCk3l58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242756887293-as9i837vqmh6o6svlr9iqipssftg3cgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
