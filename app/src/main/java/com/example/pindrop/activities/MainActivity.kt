@@ -13,7 +13,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pindrop.R
-import com.example.pindrop.classes.*
+import com.example.pindrop.classes.Group
+import com.example.pindrop.classes.GroupsAdapter
+import com.example.pindrop.classes.User
+import com.example.pindrop.classes.UserGroup
 import com.example.pindrop.fragments.CreateGroupFragment
 import com.example.pindrop.fragments.JoinGroupFragment
 import com.google.firebase.auth.FirebaseAuth
@@ -57,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         //tvHelloUser.text="Hello "+user?.displayName+"!"
         supportActionBar?.title = "Hi " + user?.displayName + "!" + " Your Groups"
 
-        userGroups = generateSampleData()
+        //userGroups = generateSampleData()
 
         // set layout manager on the recycler view
         rvGroups.layoutManager = LinearLayoutManager(this)
@@ -207,51 +210,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
-
-
-
-    private fun generateSampleData(): MutableList<UserGroup> {
-        return mutableListOf(
-            UserGroup(
-                "Sahil & Yukta",
-                listOf(
-                    Trip(
-                        "Chennai May22'",
-                        "First trip together",
-                        "Completed",
-                        Marker("Novotel OMR",  "description...",12.905245747662798, 80.22921962167474),
-                        100f,
-                        listOf(
-                            Marker("Novotel OMR",  "description...",12.905245747662798, 80.22921962167474)
-                        )
-
-                    ),
-                    Trip(
-                        "Chennai Jul22'",
-                        "Three day vacation after summer",
-                        "Completed",
-                        Marker("Ibis Sipcot", "description...",12.831381842211815, 80.23074293542147),
-                        250f,
-                        listOf(
-                            Marker("Ibis Sipcot", "description...", 12.831381842211815, 80.23074293542147),
-                            Marker("Marina Mall", "description...",  12.836036905904493, 80.22929454262712),
-                            Marker("Besant Nagar Beach", "description...", 12.998924945272835, 80.27176711985412),
-                            Marker("ECR Beach", "description...", 12.848383007335155, 80.24827865204858)
-                        )
-                    ),
-                    Trip(
-                        "Goa'",
-                        "Hopefully May23'",
-                        "Future",
-                        Marker("Goa", "description...",15.574397910001878, 73.74093049840498),
-                        10f,
-                        listOf(
-                            Marker("Goa", "description...",15.574397910001878, 73.74093049840498),
-                        )
-                    )
-                )
-            )
-        )
-    }
 }
