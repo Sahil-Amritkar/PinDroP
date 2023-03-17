@@ -32,8 +32,8 @@ class LoginActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
 
-        etEnterEmailLogin.setText("demoemail@gmail.com")
-        etEnterPasswordLogin.setText("password")
+        //etEnterEmailLogin.setText("demoemail@gmail.com")
+        //etEnterPasswordLogin.setText("password")
 
         btLogin.setOnClickListener{
             loginUser()
