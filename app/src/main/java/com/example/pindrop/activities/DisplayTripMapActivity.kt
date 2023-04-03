@@ -105,8 +105,8 @@ class DisplayTripMapActivity : AppCompatActivity(), OnMapReadyCallback {
             mMap.animateCamera(
                 CameraUpdateFactory.newLatLngBounds(
                     boundsBuilderAll.build(),
-                    500,
-                    500,
+                    250,
+                    250,
                     0
                 )
             )

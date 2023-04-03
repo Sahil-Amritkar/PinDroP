@@ -19,42 +19,42 @@
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.AddHeadMarkerActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="@string/google_api_key" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.DisplayTripMapActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.AddTripActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.GroupDetailsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.ListTripsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value="@string/google_maps_api_key" />
         </activity>
         <activity
             android:name=".activities.RegisterActivity"
@@ -76,7 +76,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@keys/google_api_key" />
+            android:value="@string/google_maps_api_key" />
 
         <activity
             android:name=".activities.DisplayMapActivity"

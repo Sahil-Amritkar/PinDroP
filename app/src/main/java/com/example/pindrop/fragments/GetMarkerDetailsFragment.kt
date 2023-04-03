@@ -111,7 +111,7 @@ class GetMarkerDetailsFragment : DialogFragment() {
     private fun createMarkerHue():Float{
         var markerHue:Float
         if(tripStatus=="Completed") {
-            markerHue = rand(60, 360)
+            markerHue = rand(100, 360)
         } else{
             markerHue= 0f
         }

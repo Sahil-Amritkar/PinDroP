@@ -132,8 +132,8 @@ class DisplayMapActivity : AppCompatActivity(), OnMapReadyCallback {
             mMap.animateCamera(
                 CameraUpdateFactory.newLatLngBounds(
                     boundsBuilderAll.build(),
-                    500,
-                    500,
+                    250,
+                    250,
                     0
                 )
             )
@@ -142,8 +142,8 @@ class DisplayMapActivity : AppCompatActivity(), OnMapReadyCallback {
                 mMap.animateCamera(
                     CameraUpdateFactory.newLatLngBounds(
                         boundsBuilderCompleted.build(),
-                        500,
-                        500,
+                        250,
+                        250,
                         0
                     )
                 )

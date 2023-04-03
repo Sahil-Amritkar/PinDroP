@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         // set layout manager on the recycler view
         rvGroups.layoutManager = LinearLayoutManager(this)
 
-        Log.i(TAG, "User Groups: " + userGroups)
+        //Log.i(TAG, "User Groups: " + userGroups)
 
 
         //userGroups = deserializeUserGroups(this).toMutableList()
